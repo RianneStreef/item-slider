@@ -1,10 +1,9 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 
 import Slider, { SliderItem } from "../components/Slider";
 
 import items from "../content/items";
-
-import item1 from "../images/item1.png";
 
 const index = () => {
   const listItems = items.map((item) => {
@@ -17,7 +16,9 @@ const index = () => {
               {item.description}
             </div>
           </SliderItem>
-          <SliderItem>{item1}</SliderItem>
+          <SliderItem>
+            <StaticImage src={item.image} alt={item.imgDescription} />
+          </SliderItem>
           <SliderItem>{item.details}</SliderItem>
         </Slider>
       </div>
