@@ -1,5 +1,4 @@
 import React from "react";
-import { StaticImage } from "gatsby-plugin-image";
 
 import Slider, { SliderItem } from "../components/Slider";
 
@@ -17,7 +16,7 @@ const index = () => {
             </div>
           </SliderItem>
           <SliderItem>
-            <StaticImage src={item.image} alt={item.imgDescription} />
+            <p className="middle-slide">IMAGE</p>
           </SliderItem>
           <SliderItem>{item.details}</SliderItem>
         </Slider>

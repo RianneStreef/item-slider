@@ -6,13 +6,6 @@ const items = [
     image: "../images/item1.png",
     imgDescription: "A unicorn",
   },
-  {
-    name: "Item 2",
-    description: "Pink Flower",
-    details: "Just a drawing of a flower",
-    image: "../images/item2.jpeg",
-    imgDescription: "A flower",
-  },
 ];
 
 export default items;

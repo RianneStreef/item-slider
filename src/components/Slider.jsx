@@ -34,6 +34,13 @@ const Slider = ({ children }) => {
         >
           More Info
         </button>
+        <button
+          onClick={() => {
+            updateIndex(0);
+          }}
+        >
+          back
+        </button>
       </div>
     </div>
   );
