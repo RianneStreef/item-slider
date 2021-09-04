@@ -1,0 +1,19 @@
+.slider {
+  overflow: hidden;
+  margin: 50px;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+
+.slider-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  background-color: magenta; 
+  color: white;
+}
+
