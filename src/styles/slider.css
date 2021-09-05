@@ -23,10 +23,9 @@
   justify-content: center;
   background-color: white;
   height: 100%;
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .item-img {
-  width: 50%;
+  width: 40%;
 }

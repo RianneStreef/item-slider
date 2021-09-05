@@ -3,9 +3,6 @@ import React from "react";
 import Slider, { SliderItem } from "../components/Slider";
 
 import items from "../content/items";
-import { GatsbyImage, getImage } from "gatsby-plugin-image";
-
-import img1 from "../images/item1.png";
 
 const index = () => {
   const listItems = items.map((item) => {
@@ -21,11 +18,11 @@ const index = () => {
           <SliderItem>
             <div className="middle-slide">
               image
-              <img className="item-img" src={img1} />
-              {/* <GatsbyImage
-                image={image1}
-                // alt={item.imgDescription}
-              /> */}
+              <img
+                src={require(`../images/${item.image}`).default}
+                alt={item.imgDescription}
+                className="item-img"
+              />
             </div>
           </SliderItem>
           <SliderItem>{item.details}</SliderItem>
