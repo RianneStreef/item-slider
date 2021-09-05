@@ -1,11 +1,10 @@
-import img1 from "../images/item1.png";
-
 const items = [
   {
+    id: 1,
     name: "Item 1",
     description: "Happy Unicorn",
     details: "Smiling, pink, happy unicorn",
-    image: img1,
+    image: "item1.png",
     imgDescription: "A unicorn",
   },
 ];
