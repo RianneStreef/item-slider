@@ -5,8 +5,6 @@ import Slider, { SliderItem } from "../components/Slider";
 import items from "../content/items";
 import { GatsbyImage, getImage } from "gatsby-plugin-image";
 
-import img1 from "../images/item1.png";
-
 const index = () => {
   const listItems = items.map((item) => {
     return (
@@ -21,7 +19,10 @@ const index = () => {
           <SliderItem>
             <div className="middle-slide">
               image
-              <img className="item-img" src={img1} />
+              <img
+                src={require(`../images/${item.image}`)}
+                alt={item.imgDescription}
+              />
               {/* <GatsbyImage
                 image={image1}
                 // alt={item.imgDescription}
