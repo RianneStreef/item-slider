@@ -1,9 +1,11 @@
+import img1 from "../images/item1.png";
+
 const items = [
   {
     name: "Item 1",
     description: "Happy Unicorn",
     details: "Smiling, pink, happy unicorn",
-    image: "../images/item1.png",
+    image: img1,
     imgDescription: "A unicorn",
   },
 ];

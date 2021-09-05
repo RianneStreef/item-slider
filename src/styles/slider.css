@@ -21,8 +21,12 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
-  background-color: mediumturquoise;
+  background-color: white;
   height: 100%;
   width: 100%;
+  
+}
+
+.item-img {
+  width: 50%;
 }
