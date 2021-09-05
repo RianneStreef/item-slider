@@ -1,3 +1,7 @@
+html {
+  background-color: mediumspringgreen;
+}
+
 .slider {
   overflow: hidden;
   margin: 50px;
